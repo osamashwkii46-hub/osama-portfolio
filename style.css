@@ -117,3 +117,29 @@ footer{text-align:center;padding:32px;border-top:1px solid var(--line);font-size
  .stage{height:380px}section{padding:64px 0}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+
+/* MedScan AI phone preview */
+.medscan-screen{padding:15px 13px;background:linear-gradient(165deg,#101f42 0%,#081126 70%)}
+.app-top{display:flex;align-items:center;gap:8px;color:#f5f8ff;font-size:10px}
+.app-mark{width:27px;height:27px;display:grid;place-items:center;border-radius:9px;background:linear-gradient(135deg,#36d6e8,#4778ff);font-weight:700;color:#061327;font-size:14px}
+.app-top small,.welcome small,.scan-card small,.activity small{display:block;color:#9aacc9;font-size:8px;font-weight:400;margin-top:3px}
+.app-avatar{margin-left:auto;width:23px;height:23px;border-radius:50%;display:grid;place-items:center;background:#20345c;color:#8ee9f0;font-size:9px}
+.welcome{font-size:15px;font-weight:700;color:#fff;margin:24px 0 15px}
+.welcome span{color:#46d9e7}
+.welcome small{font-size:9px}
+.scan-card{padding:13px;border:1px solid rgba(91,150,255,.25);border-radius:16px;background:linear-gradient(145deg,rgba(44,94,174,.4),rgba(17,42,81,.8));color:#fff}
+.scan-icon{width:27px;height:27px;display:grid;place-items:center;border-radius:9px;background:#3bd3df;color:#062039;font-size:18px;margin-bottom:9px}
+.scan-card b{display:block;font-size:11px}
+.scan-card small{font-size:8px}
+.scan-action{display:block;margin-top:12px;padding:7px 9px;border-radius:8px;background:#e5fbff;color:#0a3152;font-size:9px;font-weight:700}
+.scan-action span{float:right}
+.screen-label{margin:18px 0 9px;color:#dbe8ff;font-size:10px;font-weight:700}
+.activity{display:flex;align-items:center;gap:8px;padding:9px 7px;border-radius:11px;background:rgba(255,255,255,.06);color:#fff}
+.activity-icon{width:25px;height:25px;display:grid;place-items:center;border-radius:8px;background:rgba(57,215,224,.15);color:#68e3e8;font-size:9px}
+.activity b{font-size:8px}.activity small{font-size:7px}.activity i{margin-left:auto;color:#5ee2b5;font-style:normal}
+.screen-bottom{position:absolute;bottom:9px;left:12px;right:12px;display:flex;justify-content:space-around;padding-top:9px;border-top:1px solid rgba(255,255,255,.1);color:#77dce9;font-size:12px}
+.screen-bottom span{text-align:center}.screen-bottom small{display:block;font-size:7px;color:#9aacc9;margin-top:2px}
+.cert-label{display:flex;align-items:center;gap:12px;justify-content:flex-start;padding:18px 20px}
+.cert-label>span{font-size:24px;font-weight:700;letter-spacing:-1px;color:#76e5ef}
+.cert-label>small{font-size:11px;color:#a9bbd8}
